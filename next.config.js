@@ -8,7 +8,8 @@ const nextConfig = withExpo({
     "react-native",
     "react-native-web",
     "expo",
-    // Add more React Native / Expo packages here...
+      "expo-camera",
+      "expo-modules-core",
   ],
   experimental: {
     forceSwcTransforms: true,

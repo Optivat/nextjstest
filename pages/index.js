@@ -1,21 +1,8 @@
-import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { useState } from 'react';
+import dynamic from 'next/dynamic';
+
+const QRScanner = dynamic(() => import('../components/QRScanner'), { ssr: false });
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Welcome to Expo + Next.js 👋</Text>
-    </View>
-  );
+    return <QRScanner />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  text: {
-    fontSize: 16,
-  },
-});
