@@ -27,3 +27,5 @@ When targeting web, you'll need to use the Next.js CLI instead of Expo CLI:
 ### 👀 More Info
 
 - [Next Adapter repo](https://github.com/expo/expo-cli/tree/main/packages/next-adapter)
+- [Next.js Documentation](https://docs.expo.dev/guides/using-nextjs/)
+- An LLM was used to modify dependencies so project can build. I tried myself to fix them before using an LLM but failed.
