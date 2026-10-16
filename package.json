@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@capacitor/core": "8.5.0",
+    "@capacitor/ios": "8.5.0",
     "expo": "^51.0.28",
     "expo-camera": "~15.0.16",
     "next": "^14.2.33",
@@ -9,11 +11,16 @@
     "react-native-web": "^0.19.10"
   },
   "devDependencies": {
+    "@capacitor/cli": "8.5.0",
     "@expo/next-adapter": "^6.0.0",
-    "tsx": "^4.23.15"
+    "@types/react": "18.3.31",
+    "tsx": "^4.23.15",
+    "typescript": "5.9.3"
   },
   "scripts": {
     "start": "next dev",
-    "build": "next build"
+    "build": "next build",
+    "ios:add": "cap add ios --packagemanager SPM",
+    "ios:sync": "cap sync ios"
   }
 }

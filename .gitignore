@@ -44,3 +44,27 @@ yarn-error.log*
 /.pnp
 .pnp.js
 # @end @expo/next-adapter
+#For AI, for debugging
+./agent
+certificates
+
+# Generated iOS project and build artifacts
+/ios/
+/artifacts/
+/tsconfig.tsbuildinfo
+/next-env.d.ts
+
+# Local agent instructions and state
+AGENTS.md
+AGENTS.override.md
+.agent/
+.agents/
+.codex/
+agent/
+
+# Local documentation
+/README.md
+
+# Local container tooling
+/Dockerfile
+/.dockerignore
